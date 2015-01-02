@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  resources :manufacturer, :only [:index, :show]
+  resources :manufacturer, only: [:index, :show]
 end
